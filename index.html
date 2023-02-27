@@ -6,7 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Consumindo PokeAPI</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
   </head>
 
-  <body></body>
+  <body>
+    <main class="altura__main">
+      
+      <header class="header">
+
+        <img class="render__pokemon" src="./src/assets/pokeapi.png" alt="" srcset="">
+  
+       <div  id="search" >
+         <input type="text" value"" placeholder="Pesquisar por...">
+         <button><img class="btn__search" src="./src/assets/search-icon.png" alt="" srcset=""></button>
+       </div>
+      </header>
+<div >
+       <div class="div__button ">
+        
+         <button class="btn__kanto  btn__regions">
+           Kanto
+         </button>
+         <button class="btn__johto  btn__regions">
+           Johto
+         </button>
+         <button class="btn__hoenn  btn__regions">
+           Hoenn
+         </button>
+         <button class="btn__sinnoh  btn__regions">
+           Sinnoh
+         </button>
+           <button class="btn__unova  btn__regions">
+             Unova</button>
+ 
+           <button class="btn__galery  btn__regions">
+             Kalos
+           </button>
+ 
+           <button class="btn__aiola  btn__regions">
+             Aiola
+           </button>
+ 
+           <button class="btn__galar  btn__regions">
+             Galar
+           </button>
+ 
+           <button class="btn__paldea  btn__regions">
+             Paldea
+           </button>
+       </div>
+
+
+        <h1>Lista de Pokémon</h1>
+
+      </div>
+      
+  
+      <ul class="pokebola">
+    
+  
+      </ul>
+      <p id="loading">Carregando...</p>
+    </main>
+    <script src="./src/scripts/index.js" type="module"></script>
+  </body>
 </html>
